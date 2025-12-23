@@ -1,4 +1,4 @@
-🅿️ Mall Parking Management System
+**🅿️ Mall Parking Management System**
 
 The Mall Parking Management System is a Python-based desktop application designed to automate and simplify vehicle parking operations in shopping malls and commercial complexes. It combines computer vision, cloud storage, and digital payments into a single efficient system.
 
@@ -61,7 +61,7 @@ Modular and scalable design
 
 Clone the repository:
 
-git clone https://github.com/your-username/mall-parking-management-system.git
+git clone https://github.com/Nithi-121/mall-parking-management-system.git
 
 
 Install required dependencies:
