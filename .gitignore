@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment Variables (CRITICAL: Do not remove)
+.env
+
+# IDEs
+.idea/
+.vscode/
+
+# Local DB (if not used anymore)
+parking.db

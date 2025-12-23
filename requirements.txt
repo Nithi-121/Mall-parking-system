@@ -1,0 +1,7 @@
+qrcode[pil]
+opencv-python
+numpy
+pytesseract
+Pillow
+supabase
+python-dotenv
