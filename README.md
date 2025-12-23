@@ -1,20 +1,98 @@
-# Mall Parking Billing System
+🅿️ Mall Parking Management System
 
-This project is a fully automated billing system for a mall parking lot. It handles vehicle entry and exit, calculates parking fees, and generates a printable receipt with a QR code for payment.
+The Mall Parking Management System is a Python-based desktop application designed to automate and simplify vehicle parking operations in shopping malls and commercial complexes. It combines computer vision, cloud storage, and digital payments into a single efficient system.
 
-## Features
+📌 Features
+🚗 Smart Entry & Exit Management
 
-- **Automated Vehicle Recognition:** Scans vehicle number plates upon entry and exit.
-- **Time Tracking:** Records the entry and exit times for each vehicle.
-- **Fee Calculation:** Automatically calculates parking fees based on the duration of the stay.
-- **Receipt Generation:** Creates a printable receipt for the customer.
-- **QR Code Payment:** Includes a QR code on the receipt for easy, contactless payment.
-- **GUI:** A simple graphical user interface to display information.
+Manual vehicle number entry or automatic license plate detection
 
-## Technology Stack
+OCR powered by OpenCV and Tesseract
 
-- **Backend:** Python
-- **GUI:** Tkinter (or another library like PyQt)
-- **QR Code:** `qrcode` library
-- **Database:** SQLite
-- **Image Processing (for future development):** OpenCV, Pytesseract
+Reduces waiting time and human error
+
+☁️ Cloud-Synced Database
+
+Uses Supabase (PostgreSQL) for secure cloud storage
+
+Real-time data synchronization
+
+Access parking records, occupancy, and revenue remotely
+
+💳 Automated Billing & Payments
+
+Calculates parking charges based on duration
+
+Generates detailed digital receipts
+
+Creates dynamic UPI QR codes for cashless payments
+
+⚡ High Performance
+
+Multi-threaded architecture
+
+Camera and OCR tasks run separately using a custom VisionHandler
+
+Ensures smooth and responsive GUI
+
+🛠️ Tech Stack
+
+Language: Python 3.x
+
+GUI: Tkinter (Themed UI)
+
+Database: Supabase (Cloud PostgreSQL)
+
+Computer Vision: OpenCV, Pytesseract
+
+Other Tools: Threading, Python-dotenv
+
+🧩 System Architecture
+
+Desktop application with cloud backend
+
+OCR module for number plate recognition
+
+Secure environment variable handling
+
+Modular and scalable design
+
+🚀 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/mall-parking-management-system.git
+
+
+Install required dependencies:
+
+pip install -r requirements.txt
+
+
+Configure environment variables using .env file:
+
+Supabase URL
+
+Supabase API Key
+
+Run the application:
+
+python main.py
+
+📈 Future Enhancements
+
+Admin dashboard with analytics
+
+Mobile app integration
+
+Automatic gate control
+
+Advanced number plate recognition models
+
+📄 License
+
+This project is developed for educational and demonstration purposes.
+
+👤 Author
+
+Developed by Nithin
